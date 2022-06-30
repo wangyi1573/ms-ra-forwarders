@@ -197,7 +197,7 @@
       let voice = document.getElementsByName('voiceName')[0];
       voices.forEach(item => {
           let option = document.createElement('option');
-          option.value = item['Name'];
+          option.value = item['ShortName'];
           let Gender = "男";
           if (item['Gender'] == "Female"){
             Gender = "女";
