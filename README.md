@@ -34,7 +34,7 @@
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/p8RU3T?referralCode=-hqLZp)
 
 ### Docker部署过程
-> 请先自行安装好Docker、Docker Compose、node.js、git，不会可以找百度。
+> 请先自行安装好Docker、Docker Compose、node.js、git、tsc，不会可以找百度。
 
 # 1 拉取镜像
 ``` bash
@@ -97,6 +97,16 @@ docker compose up -d
 >　重启容器:
 ```bash
 docker-compose restart
+```
+> 改动后缀ts文件内容后需要重新编译为js才会生效  
+
+进入/home/ms-ra-forwarder目录
+```bash
+cd /home/ms-ra-forwarder
+```
+编译ts文件
+```bash
+tsc -w
 ```
 # 4 浏览器访问 http://localhost:3000
 ### 手动运行
