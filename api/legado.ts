@@ -2,7 +2,7 @@ import { Request, Response } from 'express'
 import { encode, decode } from 'js-base64'
 import { FORMAT_CONTENT_TYPE } from '../ra'
 module.exports = async (request: Request, response: Response) => {
-  let ttsdata = request.query['data'];
+  let ttsdata = request.query['data'].toString();
   let ttsdatastr = decode(decodeURIComponent(ttsdata)) ?? '';
   let ttsarr = JSON.parse(ttsdatastr) ?? {};
   let api = decodeURIComponent(ttsarr['url']) ?? '';
