@@ -197,6 +197,10 @@
       let voice = document.getElementsByName('voiceName')[0];
       voices.forEach(item => {
           let option = document.createElement('option');
+          let Status = "";
+          if (item['Status'] =="Preview") {
+            Status = "[预览]";
+          }
           option.value = item['ShortName'];
           let Gender = "男";
           if (item['Gender'] == "Female"){
@@ -214,7 +218,7 @@
           if (Array.isArray(item['StyleList'])){
             count = item['StyleList'].length + 1;
           }
-          option.innerText = item['LocalName'] + "-" + Gender + "-" + Locale + "-" + count + "个";
+          option.innerText = item['LocalName'] + Status + "-" + Gender + "-" + Locale + "-" + count + "个";
           voice.append(option);
       });
       getstyleName(0);
@@ -223,10 +227,14 @@
     let style = document.getElementsByName('styleName')[0];
     style.options.length=0;
     let option = document.createElement('option');
+    let Status = "";
+    if (voices[styleIndex].Status =="Preview") {
+      Status = "预览";
+    }
     option.value = "normal";
     option.innerText = "normal[默认]";
     style.append(option);
-    document.getElementsByName('name')[0].value = '微软' + voices[styleIndex].LocalName;
+    document.getElementsByName('name')[0].value = '微软' + voices[styleIndex].LocalName + Status;
     let styles = voices[styleIndex].StyleList;
     if (Array.isArray(styles)){
       styles.forEach(styleName =>{
