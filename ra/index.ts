@@ -157,7 +157,6 @@ export class Service {
                 wordBoundaryEnabled: 'false',
               },
               outputFormat: format,
-              language:{autoDetection:'false'}
             },
           },
         },
