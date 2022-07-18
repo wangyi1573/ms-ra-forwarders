@@ -2150,6 +2150,18 @@ var data = [
     "Status": "Preview"
   },
   {
+    "Name": "Microsoft Server Speech Text to Speech Voice (en-US, RogerNeural)",
+    "DisplayName": "Roger",
+    "LocalName": "Roger",
+    "ShortName": "en-US-RogerNeural",
+    "Gender": "Male",
+    "Locale": "en-US",
+    "LocaleName": "English (United States)",
+    "SampleRateHertz": "24000",
+    "VoiceType": "Neural",
+    "Status": "Preview"
+  },
+  {
     "Name": "Microsoft Server Speech Text to Speech Voice (en-US, TonyNeural)",
     "DisplayName": "Tony",
     "LocalName": "Tony",
@@ -5855,7 +5867,11 @@ var data = [
     ],
     "SampleRateHertz": "24000",
     "VoiceType": "Neural",
-    "Status": "GA"
+    "Status": "GA",
+    "ExtendedPropertyMap": {
+      "IsHighQuality48K": "True"
+    },
+    "WordsPerMinute": "274"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (zh-CN, YunyangNeural)",
@@ -6123,30 +6139,6 @@ var data = [
     "WordsPerMinute": "278"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (zh-CN-LN, XiaobeiNeural)",
-    "DisplayName": "Xiaobei",
-    "LocalName": "晓北辽宁",
-    "ShortName": "zh-CN-LN-XiaobeiNeural",
-    "Gender": "Female",
-    "Locale": "zh-CN",
-    "LocaleName": "Chinese (Mandarin, Simplified)",
-    "SampleRateHertz": "24000",
-    "VoiceType": "Neural",
-    "Status": "Preview"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (zh-CN-SC, YunxiNeural)",
-    "DisplayName": "YunxiSichuan",
-    "LocalName": "云希四川",
-    "ShortName": "zh-CN-SC-YunxiNeural",
-    "Gender": "Male",
-    "Locale": "zh-CN",
-    "LocaleName": "Chinese (Mandarin, Simplified)",
-    "SampleRateHertz": "24000",
-    "VoiceType": "Neural",
-    "Status": "Preview"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (zh-CN, YunfengNeural)",
     "DisplayName": "Yunfeng",
     "LocalName": "云枫",
@@ -6200,6 +6192,54 @@ var data = [
     "Status": "Preview"
   },
   {
+    "Name": "Microsoft Server Speech Text to Speech Voice (zh-CN, YunxiaNeural)",
+    "DisplayName": "Yunxia",
+    "LocalName": "云夏",
+    "ShortName": "zh-CN-YunxiaNeural",
+    "Gender": "Male",
+    "Locale": "zh-CN",
+    "LocaleName": "Chinese (Mandarin, Simplified)",
+    "StyleList": [
+      "Narration-relaxed",
+      "Calm",
+      "Fearful",
+      "Cheerful",
+      "Angry",
+      "Sad"
+    ],
+    "SampleRateHertz": "24000",
+    "VoiceType": "Neural",
+    "Status": "Preview"
+  },
+  {
+    "Name": "Microsoft Server Speech Text to Speech Voice (zh-CN, YunzeNeural)",
+    "DisplayName": "Yunze",
+    "LocalName": "云泽",
+    "ShortName": "zh-CN-YunzeNeural",
+    "Gender": "Male",
+    "Locale": "zh-CN",
+    "LocaleName": "Chinese (Mandarin, Simplified)",
+    "StyleList": [
+      "calm",
+      "fearful",
+      "cheerful",
+      "disgruntled",
+      "serious",
+      "angry",
+      "sad",
+      "depressed",
+      "documentary-narration"
+    ],
+    "SampleRateHertz": "24000",
+    "VoiceType": "Neural",
+    "Status": "Preview",
+    "RolePlayList": [
+      "Narrator",
+      "OlderAdultMale",
+      "SeniorMale"
+    ]
+  },
+  {
     "Name": "Microsoft Server Speech Text to Speech Voice (zh-CN, HuihuiRUS)",
     "DisplayName": "Huihui",
     "LocalName": "慧慧",
@@ -6234,6 +6274,30 @@ var data = [
     "SampleRateHertz": "16000",
     "VoiceType": "Standard",
     "Status": "Deprecated"
+  },
+  {
+    "Name": "Microsoft Server Speech Text to Speech Voice (zh-CN-liaoning, XiaobeiNeural)",
+    "DisplayName": "Xiaobei",
+    "LocalName": "晓北辽宁",
+    "ShortName": "zh-CN-liaoning-XiaobeiNeural",
+    "Gender": "Female",
+    "Locale": "zh-CN-liaoning",
+    "LocaleName": "Chinese (Mandarin, Simplified)",
+    "SampleRateHertz": "24000",
+    "VoiceType": "Neural",
+    "Status": "Preview"
+  },
+  {
+    "Name": "Microsoft Server Speech Text to Speech Voice (zh-CN-sichuan, YunxiNeural)",
+    "DisplayName": "YunxiSichuan",
+    "LocalName": "云希四川",
+    "ShortName": "zh-CN-sichuan-YunxiNeural",
+    "Gender": "Male",
+    "Locale": "zh-CN-sichuan",
+    "LocaleName": "Chinese (Mandarin, Simplified)",
+    "SampleRateHertz": "24000",
+    "VoiceType": "Neural",
+    "Status": "Preview"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (zh-HK, HiuMaanNeural)",

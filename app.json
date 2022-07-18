@@ -1,5 +1,5 @@
 {
-    "name": "ms-tts",
+    "name": "ms-ra-forwarder",
     "description": "Microsoft Read Aloud Forwarder",
     "repository": "https://github.com/rogueme/ms-tts",
     "env": {

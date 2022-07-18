@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="./bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
-
 <body>
   <nav class="navbar navbar-light bg-light">
     <div class="container-fluid">
@@ -23,93 +22,112 @@
   <div class="container" style="margin-top: 30px;">
     <div class="row">
       <div class="col">
-        <div class="alert alert-primary" role="alert">
-          现在可以使用 Azure 版本的 API 啦！<a href="./azure.html">点我查看</a>！
+        <div class="alert alert-warning" role="alert">
+          Azure 版本。此版本使用了<a href="https://azure.microsoft.com/zh-cn/services/cognitive-services/text-to-speech/"
+            target="_blank">Azure 演示页面</a>的接口，好像只有美国的节点能用，速度可能不及 Edge 的接口。而且我没怎么测试，可能有BUG。总之有问题请提 <a href="https://github.com/wxxxcxx/ms-ra-forwarder/issues">issue</a>。
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="alert alert-warning" role="alert">
+          此版本的 API 需要获取授权，而 Vercel 无法保存授权状态，所以不建议使用 Vercel 部署的用户使用此版本。
         </div>
       </div>
     </div>
     <form>
-      <div class="mb-3">
-        <label for="name" class="form-label">配置名称：</label>
-        <input name="name" type="text" class="form-control" value="大声朗读" />
-        <div class="form-text">在阅读中显示的名称。默认为“大声朗读”。</div>
+      <div class="row">
+        <div class="col">
+          <label for="name" class="form-label">配置名称：</label>
+          <input name="name" type="text" class="form-control" value="微软TTS" />
+          <div class="form-text">在阅读APP中显示的名称。</div>
+        </div>
       </div>
-      <div class="mb-3">
-        <label for="voiceName" class="form-label">声音：</label>
-        <select name="voiceName" class="form-select"  onchange="selectOnchang(this)">
-        </select>
-        <div class="form-text">角色名称-性别-地区-风格数量<br/>33种支持中文发音的角色，风格列表仅列出该角色发音人支持的风格，更新于2022/07/19！推荐使用晓晓或者云扬/云希（晓晓yyds）。</div>
+      <div class="row">
+        <div class="col">
+          <label for="voiceName" class="form-label">声音：</label>
+          <select name="voiceName" class="form-select" onchange="selectOnchang(this)">
+          </select>
+          <div class="form-text">角色名称-性别-地区-风格数量<br/>33种支持中文发音的角色，风格列表仅列出该角色发音人支持的风格，更新于2022/07/19！推荐使用晓晓或者云扬/云希（晓晓yyds）</div>
+        </div>
       </div>
       <div class="mb-3">
         <label for="styleName" class="form-label">讲话风格：</label>
         <div class="input-group">
           <span class="input-group-text">名称</span>
-          <select name="styleName" class="form-select" disabled>
+          <select name="styleName" class="form-select">
           </select>
         </div>
         <div class="input-group">
           <span class="input-group-text">风格强度</span>
-          <input name="styleDegree" class="form-control" type="number" min="0.01" max="2.00" step=".01" value="1.00" disabled>
+          <input name="styleDegree" class="form-control" type="number" min="0.1" max="2.0" step="0.1" value="1.0">
           <span class="input-group-text">讲话语速</span>
           <input name="speakSpeed" class="form-control" type="number" min="0" max="100" step="1" value="25">
           <span class="input-group-text">%</span>
         </div>
-        <div class="form-text">
-          每个声音支持的讲话风格都不一样，具体可以参考：https://docs.microsoft.com/zh-CN/azure/cognitive-services/speech-service/speech-synthesis-markup?tabs=csharp#adjust-speaking-styles
-        </div>
-      </div>
-
-      <div class="mb-3">
-        <label for="voiceFormat" class="form-label">音频格式：</label>
-        <div class="input-group">
+            <div class="form-text">指定说话风格的强度。 接受的值：0.01 到 2（含边界值）。 默认值为 1，表示预定义的风格强度。 最小单位为 0.01，表示略倾向于目标风格。 值为 2
+              表示是默认风格强度的两倍。</div>
+      <div class="row">
+        <div class="col">
+          <label for="voiceFormat" class="form-label">音频格式：</label>
+          <div class="input-group">
           <select name="voiceFormat" class="form-select">
-            <option class="btn-danger" value="raw-16khz-16bit-mono-pcm">raw-16khz-16bit-mono-pcm</option>
-            <option class="btn-danger" value="raw-48khz-16bit-mono-pcm">raw-48khz-16bit-mono-pcm</option>
-            <option class="btn-danger" value="raw-8khz-8bit-mono-mulaw">raw-8khz-8bit-mono-mulaw</option>
-            <option class="btn-danger" value="raw-8khz-8bit-mono-alaw">raw-8khz-8bit-mono-alaw</option>
-            <option class="btn-danger" value="raw-16khz-16bit-mono-truesilk">raw-16khz-16bit-mono-truesilk</option>
-            <option class="btn-danger" value="raw-24khz-16bit-mono-truesilk">raw-24khz-16bit-mono-truesilk</option>
-            <option class="btn-danger" value="riff-16khz-16bit-mono-pcm">riff-16khz-16bit-mono-pcm</option>
-            <option class="btn-danger" value="riff-24khz-16bit-mono-pcm">riff-24khz-16bit-mono-pcm</option>
-            <option class="btn-danger" value="riff-48khz-16bit-mono-pcm">riff-48khz-16bit-mono-pcm</option>
-            <option class="btn-danger" value="riff-8khz-8bit-mono-mulaw">riff-8khz-8bit-mono-mulaw</option>
-            <option class="btn-danger" value="riff-8khz-8bit-mono-alaw">riff-8khz-8bit-mono-alaw</option>
-            <option class="btn-danger" value="audio-16khz-32kbitrate-mono-mp3">audio-16khz-32kbitrate-mono-mp3</option>
-            <option class="btn-danger" value="audio-16khz-64kbitrate-mono-mp3">audio-16khz-64kbitrate-mono-mp3</option>
-            <option class="btn-danger" value="audio-16khz-128kbitrate-mono-mp3">audio-16khz-128kbitrate-mono-mp3</option>
+            <option value="raw-16khz-16bit-mono-pcm">raw-16khz-16bit-mono-pcm</option>
+            <option value="raw-48khz-16bit-mono-pcm">raw-48khz-16bit-mono-pcm</option>
+            <option value="raw-8khz-8bit-mono-mulaw">raw-8khz-8bit-mono-mulaw</option>
+            <option value="raw-8khz-8bit-mono-alaw">raw-8khz-8bit-mono-alaw</option>
+            <option value="raw-16khz-16bit-mono-truesilk">raw-16khz-16bit-mono-truesilk</option>
+            <option value="raw-24khz-16bit-mono-truesilk">raw-24khz-16bit-mono-truesilk</option>
+            <option value="riff-16khz-16bit-mono-pcm">riff-16khz-16bit-mono-pcm</option>
+            <option value="riff-24khz-16bit-mono-pcm">riff-24khz-16bit-mono-pcm</option>
+            <option value="riff-48khz-16bit-mono-pcm">riff-48khz-16bit-mono-pcm</option>
+            <option value="riff-8khz-8bit-mono-mulaw">riff-8khz-8bit-mono-mulaw</option>
+            <option value="riff-8khz-8bit-mono-alaw">riff-8khz-8bit-mono-alaw</option>
+            <option value="audio-16khz-32kbitrate-mono-mp3">audio-16khz-32kbitrate-mono-mp3</option>
+            <option value="audio-16khz-64kbitrate-mono-mp3">audio-16khz-64kbitrate-mono-mp3</option>
+            <option value="audio-16khz-128kbitrate-mono-mp3">audio-16khz-128kbitrate-mono-mp3</option>
             <option value="audio-24khz-48kbitrate-mono-mp3">audio-24khz-48kbitrate-mono-mp3</option>
             <option value="audio-24khz-96kbitrate-mono-mp3">audio-24khz-96kbitrate-mono-mp3</option>
             <option value="audio-24khz-160kbitrate-mono-mp3">audio-24khz-160kbitrate-mono-mp3</option>
-            <option class="btn-danger" value="audio-48khz-96kbitrate-mono-mp3">audio-48khz-96kbitrate-mono-mp3</option>
-            <option class="btn-danger" value="audio-48khz-192kbitrate-mono-mp3">audio-48khz-192kbitrate-mono-mp3</option>
-            <option class="btn-danger" value="webm-16khz-16bit-mono-opus">webm-16khz-16bit-mono-opus</option>
+            <option value="audio-48khz-96kbitrate-mono-mp3">audio-48khz-96kbitrate-mono-mp3</option>
+            <option value="audio-48khz-192kbitrate-mono-mp3">audio-48khz-192kbitrate-mono-mp3</option>
+            <option value="webm-16khz-16bit-mono-opus">webm-16khz-16bit-mono-opus</option>
             <option value="webm-24khz-16bit-mono-opus" selected>webm-24khz-16bit-mono-opus</option>
-            <option class="btn-danger" value="ogg-16khz-16bit-mono-opus">ogg-16khz-16bit-mono-opus</option>
-            <option class="btn-danger" value="ogg-24khz-16bit-mono-opus">ogg-24khz-16bit-mono-opus</option>
-            <option class="btn-danger" value="ogg-48khz-16bit-mono-opus">ogg-48khz-16bit-mono-opus</option>
+            <option value="ogg-16khz-16bit-mono-opus">ogg-16khz-16bit-mono-opus</option>
+            <option value="ogg-24khz-16bit-mono-opus">ogg-24khz-16bit-mono-opus</option>
+            <option value="ogg-48khz-16bit-mono-opus">ogg-48khz-16bit-mono-opus</option>
           </select>
           <button type="button" class="btn btn-success" onclick='createjson()'>添加引擎</button>
+          </div>
+          <div class="form-text">
+            <p>可以调整音频的格式和质量。质量越高，生成的文件越大，对网速和流量的需求越高。请根据自己的情况选择。</p>
+            <p>如果出现 “Unsupported output format: XXX” 错误，表示不支持当前格式。</p>
+          </div>
         </div>
-        <div class="form-text">可以调整音频的格式和质量。质量越高，生成的文件越大，对网速和流量的需求越高。请根据自己的情况选择。（我禁用了一些在阅读中播放不了的格式）</div>
-      </div>
+        <div class="row">
+          <div>
+            <label for="token" class="form-label">凭据（TOKEN）：</label>
+            <input name="token" class="form-control" type="text" value="">
+            <div class="form-text">如果没有设置 TOKEN 环境变量请留空。</div>
+          </div>
+        </div>
 
-      <div class="mb-3">
-        <label for="token" class="form-label">凭据（TOKEN）：</label>
-        <input name="token" class="form-control" type="text" value="">
-        <div class="form-text">如果没有设置 TOKEN 环境变量请留空。</div>
-      </div>
-
-      <div class="mb-3">
-        <label for="previewText" class="form-label">测试文本：</label>
-        <textarea name="previewText" class="form-control" rows="3" cols="">Hi,我是微软的智能语音助手,这里是中文语音示例,如果喜欢的话请点个Star吧!</textarea>
-      </div>
-
-      <div class="col-auto">
-        <button id="previewButton" type="button" class="btn btn-secondary" onclick="preview()">测试</button>
-        <button type="button" class="btn btn-info" onclick='checkLegadoUrl()'>查看引擎参数</button>
-        <button type="button" class="btn btn-primary" onclick='createLegadoUrl()'>生成引擎链接</button>
-      </div>
+        <div class="row">
+          <div class="col">
+            <label for="previewText" class="form-label">测试文本：</label>
+            <textarea name="previewText" class="form-control" rows="3" cols="">Hi,我是微软的智能语音助手,这里是中文语音示例,如果喜欢的话请点个Star吧。</textarea>
+          </div>
+        </div>
+        <div style="height:20px"></div>
+        <div class="row">
+          <div class="col">
+            <button id="previewButton" type="button" class="btn btn-secondary" onclick="preview()">测试</button>
+            <button type="button" class="btn btn-info" onclick='checkLegadoUrl()'>查看引擎参数</button>
+            <button type="button" class="btn btn-primary" onclick='createLegadoUrl()'>生成引擎链接</button>
+          </div>
+        </div>
     </form>
+    <div style="height:50px"></div>
   </div>
 
 
@@ -139,7 +157,7 @@
       </div>
     </div>
   </div>
-    <div id="checklegadoUrlModal" class="modal " tabindex="-1">
+  <div id="checklegadoUrlModal" class="modal " tabindex="-1">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
@@ -152,6 +170,8 @@
               <tr>
                 <th>序号</th>
                 <th>角色名称</th>
+                <th>讲话风格</th>
+                <th>强度</th>
                 <th>语速</th>
                 <th>音频格式</th>
               </tr>
@@ -173,12 +193,26 @@
     var voices = [];
     var alljson = [];
     var base64arr = {};
+    var langstrstar = '';
+    var langstrend = '';
     //fetch('https://speech.platform.bing.com/consumer/speech/synthesize/readaloud/voices/list?trustedclienttoken=6A5AA1D4EAFF4E9FB37E23D68491D6F4')
     getdata();
     refreshVoice();
     function selectOnchang(obj){ 
     //获取被选中的option标签选项 
     getstyleName(obj.selectedIndex);
+    }
+    function isSecondaryLocaleList(SecondaryLocaleList){
+      let isSecondaryLocaleList = false;
+      if (Array.isArray(SecondaryLocaleList)) {
+          SecondaryLocaleList.forEach(localitem => {
+            if (localitem == "zh-CN" || localitem == "zh-HK" || localitem == "zh-TW") {
+                isSecondaryLocaleList = true;
+              return;
+            }
+          })
+        }
+      return isSecondaryLocaleList;
     }
     function getdata() {
       let itemIndex = 0;
@@ -187,14 +221,9 @@
           voices[itemIndex] = item;
           itemIndex += 1;
         }
-        else if (Array.isArray(item['SecondaryLocaleList'])) {
-          item['SecondaryLocaleList'].forEach(localitem => {
-            if (localitem == "zh-CN" || localitem == "zh-HK" || localitem == "zh-TW") {
+        else if (isSecondaryLocaleList(item['SecondaryLocaleList'])) {
               voices[itemIndex] = item;
               itemIndex += 1;
-              return;
-            }
-          })
         }
       })
     }
@@ -236,10 +265,18 @@
     if (voices[styleIndex].Status =="Preview") {
       Status = "[预览]";
     }
+    if (isSecondaryLocaleList(voices[styleIndex].SecondaryLocaleList)){
+      langstrstar = '<lang xml:lang="zh-CN">';
+      langstrend = '</lang>';
+    }else {
+      langstrstar = '';
+      langstrend = '';
+    }
     option.value = "normal";
     option.innerText = "normal[默认]";
     style.append(option);
     document.getElementsByName('name')[0].value = '微软' + voices[styleIndex].LocalName + Status;
+    
     let styles = voices[styleIndex].StyleList;
     if (Array.isArray(styles)){
       styles.forEach(styleName =>{
@@ -256,39 +293,41 @@
 
     
   }
-    function createSSML(text, voiceName, speakSpeed) {
-      var ssml = '\
-        <speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US">\
-          <voice name="'+ voiceName + '">\
-              <prosody rate="' + speakSpeed + '%" pitch="0Hz">\
-                  '+ text + '\
-             </prosody >\
+    function createSSML(text, voiceName, styleName, styleDegree, speakSpeed) {
+      let ssml = `\
+        <speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">\
+          <voice name="${voiceName}">\
+            <mstts:express-as style="${styleName}" styledegree="${styleDegree}">\
+              <prosody rate="${speakSpeed}%" pitch="0Hz">${langstrstar}
+                  ${text}${langstrend}
+              </prosody >\
+            </mstts:express-as>
           </voice >\
-        </speak > '
+        </speak > `
 
       return ssml;
     }
 
     function preview() {
-      var headers = {'Content-Type': 'text/plain'};
-      var voiceName = document.getElementsByName('voiceName')[0].value;
-      var voiceFormat = document.getElementsByName('voiceFormat')[0].value;
-      //var styleName = document.getElementsByName('styleName')[0].value;
-      //var styleDegree = document.getElementsByName('styleDegree')[0].value;
-      var token = document.getElementsByName('token')[0].value;
-      var previewText = document.getElementsByName('previewText')[0].value;
-      var speakSpeed = document.getElementsByName('speakSpeed')[0].value;
-      var ssml = createSSML(previewText, voiceName, speakSpeed)
+      let headers = { 'Content-Type': 'text/plain' };
+      let voiceName = document.getElementsByName('voiceName')[0].value;
+      let voiceFormat = document.getElementsByName('voiceFormat')[0].value;
+      let styleName = document.getElementsByName('styleName')[0].value;
+      let styleDegree = document.getElementsByName('styleDegree')[0].value;
+      let token = document.getElementsByName('token')[0].value;
+      let previewText = document.getElementsByName('previewText')[0].value;
+      let speakSpeed = document.getElementsByName('speakSpeed')[0].value;
+      let ssml = createSSML(previewText, voiceName, styleName, styleDegree, speakSpeed)
       if (token) {
         headers['Authorization'] = 'Bearer ' + token;
       }
 
       headers['Format'] = voiceFormat;
 
-      var button = document.getElementById('previewButton');
+      let button = document.getElementById('previewButton');
       button.disabled = true;
-      var ctx = new AudioContext();
-      fetch('/api/ra', {
+      let ctx = new AudioContext();
+      fetch('/api/azure', {
         method: 'post',
         headers: headers,
         body: ssml
@@ -300,26 +339,24 @@
         } else {
           return response.text().then(text => Promise.reject(text));
         }
-      })
-      .then(arrayBuffer => ctx.decodeAudioData(arrayBuffer))
-      .then(audio => {
-        var player = ctx.createBufferSource();
-        player.buffer = audio;
-        player.connect(ctx.destination);
-        player.start(ctx.currentTime);
-      })
-      .catch(reason => {
-        alert(reason);
-      })
-      .finally(()=>{
-        button.disabled = false;
-      });
+      }).then(arrayBuffer => ctx.decodeAudioData(arrayBuffer))
+        .then(audio => {
+          let player = ctx.createBufferSource();
+          player.buffer = audio;
+          player.connect(ctx.destination);
+          player.start(ctx.currentTime);
+        })
+        .catch(reason => {
+          alert(reason);
+        })
+        .finally(() => {
+          button.disabled = false;
+        });
     }
 
     function delallttsdata(){
       alljson.length = 0;
     }
-    
     function createLegadoUrl() {
       var url = window.location.protocol + '//' + window.location.host;
       var token = document.getElementsByName('token')[0].value;
@@ -330,7 +367,7 @@
       base64arr = {
         'ttsdata':alljson,
         'token':token,
-        'type': "ra",
+        'type': "azure",
         'url':encodeURI(url),
       };
       var allurl = url + '/api/legado?data=' + encodeURIComponent(Base64.encode(JSON.stringify(base64arr)));
@@ -349,15 +386,15 @@
       var name = document.getElementsByName('name')[0].value;
       var voiceName = document.getElementsByName('voiceName')[0].value;
       var voiceFormat = document.getElementsByName('voiceFormat')[0].value;
-      //var styleName = document.getElementsByName('styleName')[0].value;
-      //var styleDegree = document.getElementsByName('styleDegree')[0].value;
+      var styleName = document.getElementsByName('styleName')[0].value;
+      var styleDegree = document.getElementsByName('styleDegree')[0].value;
       var speakSpeed = document.getElementsByName('speakSpeed')[0].value;
       var ttsarr = {
         'name':encodeURI(name),
         'voiceName':voiceName,
         'voiceFormat':voiceFormat,
-        //'styleName':styleName,
-        //'styleDegree':styleDegree,
+        'styleName':styleName,
+        'styleDegree':styleDegree,
         'speakSpeed':speakSpeed
       };
       alljson.push(ttsarr);
@@ -383,13 +420,13 @@
         let nameTd = gettabletd(decodeURIComponent(item['name']));
         let voiceNameTd = gettabletd(item['voiceName']);
         let voiceFormatTd = gettabletd(item['voiceFormat']);
-        //let styleNameTd = gettabletd(item['styleName']);
+        let styleNameTd = gettabletd(item['styleName']);
         let speakSpeed = gettabletd(item['speakSpeed'] + '%');
-        //let styleDegreeTd = gettabletd(item['styleDegree']);
+        let styleDegreeTd = gettabletd(item['styleDegree']);
         tr.appendChild(idTd);
         tr.appendChild(voiceNameTd);
-        //tr.appendChild(styleNameTd);
-        //tr.appendChild(styleDegreeTd);
+        tr.appendChild(styleNameTd);
+        tr.appendChild(styleDegreeTd);
         tr.appendChild(speakSpeed);
         tr.appendChild(voiceFormatTd);
         tbody.appendChild(tr);
