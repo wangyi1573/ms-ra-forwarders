@@ -98,9 +98,9 @@ docker-compose restart
 ```
 > 改动后缀ts文件内容后需要重新编译为js才会生效  
 
-进入/root/ms-ra-forwarder目录
+进入/home/ms-ra-forwarder目录
 ```bash
-cd /root/ms-ra-forwarder
+cd /home/ms-ra-forwarder
 ```
 编译ts文件
 ```bash
