@@ -60,6 +60,7 @@ module.exports = async (request: Request, response: Response) => {
             '<prosody rate="{{speakSpeed + ' + speakSpeed + '}}%" pitch="+0Hz" volume="+100%">' + langstrstar +
               "{{String(speakText).replace(/&/g, '&amp;').replace(/\"/g, '&quot;').replace(/'/g, '&apos;').replace(/</g, '&lt;').replace(/>/g, '&gt;')}}" + langstrend +
             '</prosody>' +
+            (styleName ? ` </mstts:express-as>` : ``) +
           '</voice>' +
         '</speak>'
       let body = {
