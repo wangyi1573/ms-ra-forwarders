@@ -190,18 +190,6 @@ var data = [
     "WordsPerMinute": "115"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (ar-EG, Hoda)",
-    "DisplayName": "Hoda",
-    "LocalName": "هدى",
-    "ShortName": "ar-EG-Hoda",
-    "Gender": "Female",
-    "Locale": "ar-EG",
-    "LocaleName": "Arabic (Egypt)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (ar-IQ, BasselNeural)",
     "DisplayName": "Bassel",
     "LocalName": "باسل",
@@ -436,18 +424,6 @@ var data = [
     "WordsPerMinute": "105"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (ar-SA, Naayf)",
-    "DisplayName": "Naayf",
-    "LocalName": "نايف",
-    "ShortName": "ar-SA-Naayf",
-    "Gender": "Male",
-    "Locale": "ar-SA",
-    "LocaleName": "Arabic (Saudi Arabia)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (ar-SY, AmanyNeural)",
     "DisplayName": "Amany",
     "LocalName": "أماني",
@@ -530,7 +506,7 @@ var data = [
     "DisplayName": "Babek",
     "LocalName": "Babək",
     "ShortName": "az-AZ-BabekNeural",
-    "Gender": "Female",
+    "Gender": "Male",
     "Locale": "az-AZ",
     "LocaleName": "Azerbaijani (Azerbaijan)",
     "SampleRateHertz": "24000",
@@ -543,7 +519,7 @@ var data = [
     "DisplayName": "Banu",
     "LocalName": "Banu",
     "ShortName": "az-AZ-BanuNeural",
-    "Gender": "Male",
+    "Gender": "Female",
     "Locale": "az-AZ",
     "LocaleName": "Azerbaijani (Azerbaijan)",
     "SampleRateHertz": "24000",
@@ -576,18 +552,6 @@ var data = [
     "VoiceType": "Neural",
     "Status": "GA",
     "WordsPerMinute": "125"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (bg-BG, Ivan)",
-    "DisplayName": "Ivan",
-    "LocalName": "Иван",
-    "ShortName": "bg-BG-Ivan",
-    "Gender": "Male",
-    "Locale": "bg-BG",
-    "LocaleName": "Bulgarian (Bulgaria)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (bn-BD, NabanitaNeural)",
@@ -707,18 +671,6 @@ var data = [
     "WordsPerMinute": "143"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (ca-ES, HerenaRUS)",
-    "DisplayName": "Herena",
-    "LocalName": "Helena",
-    "ShortName": "ca-ES-HerenaRUS",
-    "Gender": "Female",
-    "Locale": "ca-ES",
-    "LocaleName": "Catalan (Spain)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (cs-CZ, AntoninNeural)",
     "DisplayName": "Antonin",
     "LocalName": "Antonín",
@@ -743,18 +695,6 @@ var data = [
     "VoiceType": "Neural",
     "Status": "GA",
     "WordsPerMinute": "118"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (cs-CZ, Jakub)",
-    "DisplayName": "Jakub",
-    "LocalName": "Jakub",
-    "ShortName": "cs-CZ-Jakub",
-    "Gender": "Male",
-    "Locale": "cs-CZ",
-    "LocaleName": "Czech (Czech)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (cy-GB, AledNeural)",
@@ -809,18 +749,6 @@ var data = [
     "WordsPerMinute": "147"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (da-DK, HelleRUS)",
-    "DisplayName": "Helle",
-    "LocalName": "Helle",
-    "ShortName": "da-DK-HelleRUS",
-    "Gender": "Female",
-    "Locale": "da-DK",
-    "LocaleName": "Danish (Denmark)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (de-AT, IngridNeural)",
     "DisplayName": "Ingrid",
     "LocalName": "Ingrid",
@@ -847,18 +775,6 @@ var data = [
     "WordsPerMinute": "130"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (de-AT, Michael)",
-    "DisplayName": "Michael",
-    "LocalName": "Michael",
-    "ShortName": "de-AT-Michael",
-    "Gender": "Male",
-    "Locale": "de-AT",
-    "LocaleName": "German (Austria)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (de-CH, JanNeural)",
     "DisplayName": "Jan",
     "LocalName": "Jan",
@@ -883,18 +799,6 @@ var data = [
     "VoiceType": "Neural",
     "Status": "GA",
     "WordsPerMinute": "121"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (de-CH, Karsten)",
-    "DisplayName": "Karsten",
-    "LocalName": "Karsten",
-    "ShortName": "de-CH-Karsten",
-    "Gender": "Male",
-    "Locale": "de-CH",
-    "LocaleName": "German (Switzerland)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (de-DE, KatjaNeural)",
@@ -1091,30 +995,6 @@ var data = [
     "WordsPerMinute": "114"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (de-DE, HeddaRUS)",
-    "DisplayName": "Hedda",
-    "LocalName": "Hedda",
-    "ShortName": "de-DE-HeddaRUS",
-    "Gender": "Female",
-    "Locale": "de-DE",
-    "LocaleName": "German (Germany)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (de-DE, Stefan)",
-    "DisplayName": "Stefan",
-    "LocalName": "Stefan",
-    "ShortName": "de-DE-Stefan",
-    "Gender": "Male",
-    "Locale": "de-DE",
-    "LocaleName": "German (Germany)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (el-GR, AthinaNeural)",
     "DisplayName": "Athina",
     "LocalName": "Αθηνά",
@@ -1139,18 +1019,6 @@ var data = [
     "VoiceType": "Neural",
     "Status": "GA",
     "WordsPerMinute": "158"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (el-GR, Stefanos)",
-    "DisplayName": "Stefanos",
-    "LocalName": "Στέφανος",
-    "ShortName": "el-GR-Stefanos",
-    "Gender": "Male",
-    "Locale": "el-GR",
-    "LocaleName": "Greek (Greece)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (en-AU, NatashaNeural)",
@@ -1179,30 +1047,6 @@ var data = [
     "WordsPerMinute": "157"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (en-AU, Catherine)",
-    "DisplayName": "Catherine",
-    "LocalName": "Catherine",
-    "ShortName": "en-AU-Catherine",
-    "Gender": "Female",
-    "Locale": "en-AU",
-    "LocaleName": "English (Australia)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (en-AU, HayleyRUS)",
-    "DisplayName": "Hayley",
-    "LocalName": "Hayley",
-    "ShortName": "en-AU-HayleyRUS",
-    "Gender": "Female",
-    "Locale": "en-AU",
-    "LocaleName": "English (Australia)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (en-CA, ClaraNeural)",
     "DisplayName": "Clara",
     "LocalName": "Clara",
@@ -1227,30 +1071,6 @@ var data = [
     "VoiceType": "Neural",
     "Status": "GA",
     "WordsPerMinute": "180"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (en-CA, HeatherRUS)",
-    "DisplayName": "Heather",
-    "LocalName": "Heather",
-    "ShortName": "en-CA-HeatherRUS",
-    "Gender": "Female",
-    "Locale": "en-CA",
-    "LocaleName": "English (Canada)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (en-CA, Linda)",
-    "DisplayName": "Linda",
-    "LocalName": "Linda",
-    "ShortName": "en-CA-Linda",
-    "Gender": "Female",
-    "Locale": "en-CA",
-    "LocaleName": "English (Canada)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (en-GB, LibbyNeural)",
@@ -1447,42 +1267,6 @@ var data = [
     "Status": "Deprecated"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (en-GB, George)",
-    "DisplayName": "George",
-    "LocalName": "George",
-    "ShortName": "en-GB-George",
-    "Gender": "Male",
-    "Locale": "en-GB",
-    "LocaleName": "English (United Kingdom)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (en-GB, HazelRUS)",
-    "DisplayName": "Hazel",
-    "LocalName": "Hazel",
-    "ShortName": "en-GB-HazelRUS",
-    "Gender": "Female",
-    "Locale": "en-GB",
-    "LocaleName": "English (United Kingdom)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (en-GB, Susan)",
-    "DisplayName": "Susan",
-    "LocalName": "Susan",
-    "ShortName": "en-GB-Susan",
-    "Gender": "Female",
-    "Locale": "en-GB",
-    "LocaleName": "English (United Kingdom)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (en-HK, SamNeural)",
     "DisplayName": "Sam",
     "LocalName": "Sam",
@@ -1535,18 +1319,6 @@ var data = [
     "WordsPerMinute": "135"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (en-IE, Sean)",
-    "DisplayName": "Sean",
-    "LocalName": "Sean",
-    "ShortName": "en-IE-Sean",
-    "Gender": "Male",
-    "Locale": "en-IE",
-    "LocaleName": "English (Ireland)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (en-IN, NeerjaNeural)",
     "DisplayName": "Neerja",
     "LocalName": "Neerja",
@@ -1571,42 +1343,6 @@ var data = [
     "VoiceType": "Neural",
     "Status": "GA",
     "WordsPerMinute": "129"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (en-IN, Heera)",
-    "DisplayName": "Heera",
-    "LocalName": "Heera",
-    "ShortName": "en-IN-Heera",
-    "Gender": "Female",
-    "Locale": "en-IN",
-    "LocaleName": "English (India)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (en-IN, PriyaRUS)",
-    "DisplayName": "Priya",
-    "LocalName": "Priya",
-    "ShortName": "en-IN-PriyaRUS",
-    "Gender": "Female",
-    "Locale": "en-IN",
-    "LocaleName": "English (India)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (en-IN, Ravi)",
-    "DisplayName": "Ravi",
-    "LocalName": "Ravi",
-    "ShortName": "en-IN-Ravi",
-    "Gender": "Male",
-    "Locale": "en-IN",
-    "LocaleName": "English (India)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (en-KE, AsiliaNeural)",
@@ -2053,6 +1789,30 @@ var data = [
     "WordsPerMinute": "157"
   },
   {
+    "Name": "Microsoft Server Speech Text to Speech Voice (en-US, AIGenerate1Neural)",
+    "DisplayName": "AIGenerate1",
+    "LocalName": "AIGenerate1",
+    "ShortName": "en-US-AIGenerate1Neural",
+    "Gender": "Male",
+    "Locale": "en-US",
+    "LocaleName": "English (United States)",
+    "SampleRateHertz": "24000",
+    "VoiceType": "Neural",
+    "Status": "Preview"
+  },
+  {
+    "Name": "Microsoft Server Speech Text to Speech Voice (en-US, AIGenerate2Neural)",
+    "DisplayName": "AIGenerate2",
+    "LocalName": "AIGenerate2",
+    "ShortName": "en-US-AIGenerate2Neural",
+    "Gender": "Female",
+    "Locale": "en-US",
+    "LocaleName": "English (United States)",
+    "SampleRateHertz": "24000",
+    "VoiceType": "Neural",
+    "Status": "Preview"
+  },
+  {
     "Name": "Microsoft Server Speech Text to Speech Voice (en-US, DavisNeural)",
     "DisplayName": "Davis",
     "LocalName": "Davis",
@@ -2184,54 +1944,6 @@ var data = [
     "SampleRateHertz": "24000",
     "VoiceType": "Neural",
     "Status": "Preview"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (en-US, AriaRUS)",
-    "DisplayName": "Aria",
-    "LocalName": "Aria",
-    "ShortName": "en-US-AriaRUS",
-    "Gender": "Female",
-    "Locale": "en-US",
-    "LocaleName": "English (United States)",
-    "SampleRateHertz": "24000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (en-US, BenjaminRUS)",
-    "DisplayName": "Benjamin",
-    "LocalName": "Benjamin",
-    "ShortName": "en-US-BenjaminRUS",
-    "Gender": "Male",
-    "Locale": "en-US",
-    "LocaleName": "English (United States)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (en-US, GuyRUS)",
-    "DisplayName": "Guy",
-    "LocalName": "Guy",
-    "ShortName": "en-US-GuyRUS",
-    "Gender": "Male",
-    "Locale": "en-US",
-    "LocaleName": "English (United States)",
-    "SampleRateHertz": "24000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (en-US, ZiraRUS)",
-    "DisplayName": "Zira",
-    "LocalName": "Zira",
-    "ShortName": "en-US-ZiraRUS",
-    "Gender": "Female",
-    "Locale": "en-US",
-    "LocaleName": "English (United States)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (en-ZA, LeahNeural)",
@@ -2494,42 +2206,6 @@ var data = [
     "WordsPerMinute": "148"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (es-ES, HelenaRUS)",
-    "DisplayName": "Helena",
-    "LocalName": "Helena",
-    "ShortName": "es-ES-HelenaRUS",
-    "Gender": "Female",
-    "Locale": "es-ES",
-    "LocaleName": "Spanish (Spain)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (es-ES, Laura)",
-    "DisplayName": "Laura",
-    "LocalName": "Laura",
-    "ShortName": "es-ES-Laura",
-    "Gender": "Female",
-    "Locale": "es-ES",
-    "LocaleName": "Spanish (Spain)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (es-ES, Pablo)",
-    "DisplayName": "Pablo",
-    "LocalName": "Pablo",
-    "ShortName": "es-ES-Pablo",
-    "Gender": "Male",
-    "Locale": "es-ES",
-    "LocaleName": "Spanish (Spain)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (es-GQ, JavierNeural)",
     "DisplayName": "Javier",
     "LocalName": "Javier",
@@ -2788,30 +2464,6 @@ var data = [
     "SampleRateHertz": "24000",
     "VoiceType": "Neural",
     "Status": "Preview"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (es-MX, HildaRUS)",
-    "DisplayName": "Hilda",
-    "LocalName": "Hilda",
-    "ShortName": "es-MX-HildaRUS",
-    "Gender": "Female",
-    "Locale": "es-MX",
-    "LocaleName": "Spanish (Mexico)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (es-MX, Raul)",
-    "DisplayName": "Raul",
-    "LocalName": "Raúl",
-    "ShortName": "es-MX-Raul",
-    "Gender": "Male",
-    "Locale": "es-MX",
-    "LocaleName": "Spanish (Mexico)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (es-NI, FedericoNeural)",
@@ -3139,18 +2791,6 @@ var data = [
     "WordsPerMinute": "96"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (fi-FI, HeidiRUS)",
-    "DisplayName": "Heidi",
-    "LocalName": "Heidi",
-    "ShortName": "fi-FI-HeidiRUS",
-    "Gender": "Female",
-    "Locale": "fi-FI",
-    "LocaleName": "Finnish (Finland)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (fil-PH, AngeloNeural)",
     "DisplayName": "Angelo",
     "LocalName": "Angelo",
@@ -3242,30 +2882,6 @@ var data = [
     "WordsPerMinute": "133"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (fr-CA, Caroline)",
-    "DisplayName": "Caroline",
-    "LocalName": "Caroline",
-    "ShortName": "fr-CA-Caroline",
-    "Gender": "Female",
-    "Locale": "fr-CA",
-    "LocaleName": "French (Canada)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (fr-CA, HarmonieRUS)",
-    "DisplayName": "Harmonie",
-    "LocalName": "Harmonie",
-    "ShortName": "fr-CA-HarmonieRUS",
-    "Gender": "Female",
-    "Locale": "fr-CA",
-    "LocaleName": "French (Canada)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (fr-CH, ArianeNeural)",
     "DisplayName": "Ariane",
     "LocalName": "Ariane",
@@ -3290,18 +2906,6 @@ var data = [
     "VoiceType": "Neural",
     "Status": "GA",
     "WordsPerMinute": "172"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (fr-CH, Guillaume)",
-    "DisplayName": "Guillaume",
-    "LocalName": "Guillaume",
-    "ShortName": "fr-CH-Guillaume",
-    "Gender": "Male",
-    "Locale": "fr-CH",
-    "LocaleName": "French (Switzerland)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (fr-FR, AlainNeural)",
@@ -3490,42 +3094,6 @@ var data = [
     "WordsPerMinute": "156"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (fr-FR, HortenseRUS)",
-    "DisplayName": "Hortense",
-    "LocalName": "Hortense",
-    "ShortName": "fr-FR-HortenseRUS",
-    "Gender": "Female",
-    "Locale": "fr-FR",
-    "LocaleName": "French (France)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (fr-FR, Julie)",
-    "DisplayName": "Julie",
-    "LocalName": "Julie",
-    "ShortName": "fr-FR-Julie",
-    "Gender": "Female",
-    "Locale": "fr-FR",
-    "LocaleName": "French (France)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (fr-FR, Paul)",
-    "DisplayName": "Paul",
-    "LocalName": "Paul",
-    "ShortName": "fr-FR-Paul",
-    "Gender": "Male",
-    "Locale": "fr-FR",
-    "LocaleName": "French (France)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (ga-IE, ColmNeural)",
     "DisplayName": "Colm",
     "LocalName": "Colm",
@@ -3630,18 +3198,6 @@ var data = [
     "WordsPerMinute": "113"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (he-IL, Asaf)",
-    "DisplayName": "Asaf",
-    "LocalName": "אסף",
-    "ShortName": "he-IL-Asaf",
-    "Gender": "Male",
-    "Locale": "he-IL",
-    "LocaleName": "Hebrew (Israel)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (hi-IN, MadhurNeural)",
     "DisplayName": "Madhur",
     "LocalName": "मधुर",
@@ -3666,30 +3222,6 @@ var data = [
     "VoiceType": "Neural",
     "Status": "GA",
     "WordsPerMinute": "117"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (hi-IN, Hemant)",
-    "DisplayName": "Hemant",
-    "LocalName": "हेमन्त",
-    "ShortName": "hi-IN-Hemant",
-    "Gender": "Male",
-    "Locale": "hi-IN",
-    "LocaleName": "Hindi (India)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (hi-IN, Kalpana)",
-    "DisplayName": "Kalpana",
-    "LocalName": "कल्पना",
-    "ShortName": "hi-IN-Kalpana",
-    "Gender": "Female",
-    "Locale": "hi-IN",
-    "LocaleName": "Hindi (India)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (hr-HR, GabrijelaNeural)",
@@ -3718,18 +3250,6 @@ var data = [
     "WordsPerMinute": "133"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (hr-HR, Matej)",
-    "DisplayName": "Matej",
-    "LocalName": "Matej",
-    "ShortName": "hr-HR-Matej",
-    "Gender": "Male",
-    "Locale": "hr-HR",
-    "LocaleName": "Croatian (Croatia)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (hu-HU, NoemiNeural)",
     "DisplayName": "Noemi",
     "LocalName": "Noémi",
@@ -3756,18 +3276,6 @@ var data = [
     "WordsPerMinute": "124"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (hu-HU, Szabolcs)",
-    "DisplayName": "Szabolcs",
-    "LocalName": "Szabolcs",
-    "ShortName": "hu-HU-Szabolcs",
-    "Gender": "Male",
-    "Locale": "hu-HU",
-    "LocaleName": "Hungarian (Hungary)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (id-ID, ArdiNeural)",
     "DisplayName": "Ardi",
     "LocalName": "Ardi",
@@ -3792,18 +3300,6 @@ var data = [
     "VoiceType": "Neural",
     "Status": "GA",
     "WordsPerMinute": "111"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (id-ID, Andika)",
-    "DisplayName": "Andika",
-    "LocalName": "Andika",
-    "ShortName": "id-ID-Andika",
-    "Gender": "Male",
-    "Locale": "id-ID",
-    "LocaleName": "Indonesian (Indonesia)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (is-IS, GudrunNeural)",
@@ -4014,30 +3510,6 @@ var data = [
     "Status": "Preview"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (it-IT, Cosimo)",
-    "DisplayName": "Cosimo",
-    "LocalName": "Cosimo",
-    "ShortName": "it-IT-Cosimo",
-    "Gender": "Male",
-    "Locale": "it-IT",
-    "LocaleName": "Italian (Italy)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (it-IT, LuciaRUS)",
-    "DisplayName": "Lucia",
-    "LocalName": "Lucia",
-    "ShortName": "it-IT-LuciaRUS",
-    "Gender": "Female",
-    "Locale": "it-IT",
-    "LocaleName": "Italian (Italy)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (ja-JP, NanamiNeural)",
     "DisplayName": "Nanami",
     "LocalName": "七海",
@@ -4067,42 +3539,6 @@ var data = [
     "VoiceType": "Neural",
     "Status": "GA",
     "WordsPerMinute": "337"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (ja-JP, Ayumi)",
-    "DisplayName": "Ayumi",
-    "LocalName": "歩美",
-    "ShortName": "ja-JP-Ayumi",
-    "Gender": "Female",
-    "Locale": "ja-JP",
-    "LocaleName": "Japanese (Japan)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (ja-JP, HarukaRUS)",
-    "DisplayName": "Haruka",
-    "LocalName": "春香",
-    "ShortName": "ja-JP-HarukaRUS",
-    "Gender": "Female",
-    "Locale": "ja-JP",
-    "LocaleName": "Japanese (Japan)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (ja-JP, Ichiro)",
-    "DisplayName": "Ichiro",
-    "LocalName": "一郎",
-    "ShortName": "ja-JP-Ichiro",
-    "Gender": "Male",
-    "Locale": "ja-JP",
-    "LocaleName": "Japanese (Japan)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (jv-ID, DimasNeural)",
@@ -4259,18 +3695,6 @@ var data = [
     "VoiceType": "Neural",
     "Status": "GA",
     "WordsPerMinute": "253"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (ko-KR, HeamiRUS)",
-    "DisplayName": "Heami",
-    "LocalName": "해 미",
-    "ShortName": "ko-KR-HeamiRUS",
-    "Gender": "Female",
-    "Locale": "ko-KR",
-    "LocaleName": "Korean (Korea)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (lo-LA, ChanthavongNeural)",
@@ -4481,18 +3905,6 @@ var data = [
     "WordsPerMinute": "112"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (ms-MY, Rizwan)",
-    "DisplayName": "Rizwan",
-    "LocalName": "Rizwan",
-    "ShortName": "ms-MY-Rizwan",
-    "Gender": "Male",
-    "Locale": "ms-MY",
-    "LocaleName": "Malay (Malaysia)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (mt-MT, GraceNeural)",
     "DisplayName": "Grace",
     "LocalName": "Grace",
@@ -4582,18 +3994,6 @@ var data = [
     "VoiceType": "Neural",
     "Status": "GA",
     "WordsPerMinute": "154"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (nb-NO, HuldaRUS)",
-    "DisplayName": "Hulda",
-    "LocalName": "Hulda",
-    "ShortName": "nb-NO-HuldaRUS",
-    "Gender": "Female",
-    "Locale": "nb-NO",
-    "LocaleName": "Norwegian (Bokmål, Norway)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (ne-NP, HemkalaNeural)",
@@ -4686,18 +4086,6 @@ var data = [
     "Status": "GA"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (nl-NL, HannaRUS)",
-    "DisplayName": "Hanna",
-    "LocalName": "Hanna",
-    "ShortName": "nl-NL-HannaRUS",
-    "Gender": "Female",
-    "Locale": "nl-NL",
-    "LocaleName": "Dutch (Netherlands)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (pl-PL, AgnieszkaNeural)",
     "DisplayName": "Agnieszka",
     "LocalName": "Agnieszka",
@@ -4735,18 +4123,6 @@ var data = [
     "VoiceType": "Neural",
     "Status": "GA",
     "WordsPerMinute": "127"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (pl-PL, PaulinaRUS)",
-    "DisplayName": "Paulina",
-    "LocalName": "Paulina",
-    "ShortName": "pl-PL-PaulinaRUS",
-    "Gender": "Female",
-    "Locale": "pl-PL",
-    "LocaleName": "Polish (Poland)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (ps-AF, GulNawazNeural)",
@@ -4960,30 +4336,6 @@ var data = [
     "Status": "Preview"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (pt-BR, Daniel)",
-    "DisplayName": "Daniel",
-    "LocalName": "Daniel",
-    "ShortName": "pt-BR-Daniel",
-    "Gender": "Male",
-    "Locale": "pt-BR",
-    "LocaleName": "Portuguese (Brazil)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (pt-BR, HeloisaRUS)",
-    "DisplayName": "Heloisa",
-    "LocalName": "Heloisa",
-    "ShortName": "pt-BR-HeloisaRUS",
-    "Gender": "Female",
-    "Locale": "pt-BR",
-    "LocaleName": "Portuguese (Brazil)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (pt-PT, DuarteNeural)",
     "DisplayName": "Duarte",
     "LocalName": "Duarte",
@@ -5023,18 +4375,6 @@ var data = [
     "WordsPerMinute": "144"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (pt-PT, HeliaRUS)",
-    "DisplayName": "Helia",
-    "LocalName": "Hélia",
-    "ShortName": "pt-PT-HeliaRUS",
-    "Gender": "Female",
-    "Locale": "pt-PT",
-    "LocaleName": "Portuguese (Portugal)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (ro-RO, AlinaNeural)",
     "DisplayName": "Alina",
     "LocalName": "Alina",
@@ -5059,18 +4399,6 @@ var data = [
     "VoiceType": "Neural",
     "Status": "GA",
     "WordsPerMinute": "144"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (ro-RO, Andrei)",
-    "DisplayName": "Andrei",
-    "LocalName": "Andrei",
-    "ShortName": "ro-RO-Andrei",
-    "Gender": "Male",
-    "Locale": "ro-RO",
-    "LocaleName": "Romanian (Romania)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (ru-RU, SvetlanaNeural)",
@@ -5110,42 +4438,6 @@ var data = [
     "VoiceType": "Neural",
     "Status": "GA",
     "WordsPerMinute": "113"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (ru-RU, EkaterinaRUS)",
-    "DisplayName": "Ekaterina",
-    "LocalName": "Екатерина",
-    "ShortName": "ru-RU-EkaterinaRUS",
-    "Gender": "Female",
-    "Locale": "ru-RU",
-    "LocaleName": "Russian (Russia)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (ru-RU, Irina)",
-    "DisplayName": "Irina",
-    "LocalName": "Ирина",
-    "ShortName": "ru-RU-Irina",
-    "Gender": "Female",
-    "Locale": "ru-RU",
-    "LocaleName": "Russian (Russia)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (ru-RU, Pavel)",
-    "DisplayName": "Pavel",
-    "LocalName": "Павел",
-    "ShortName": "ru-RU-Pavel",
-    "Gender": "Male",
-    "Locale": "ru-RU",
-    "LocaleName": "Russian (Russia)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (si-LK, SameeraNeural)",
@@ -5200,18 +4492,6 @@ var data = [
     "WordsPerMinute": "118"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (sk-SK, Filip)",
-    "DisplayName": "Filip",
-    "LocalName": "Filip",
-    "ShortName": "sk-SK-Filip",
-    "Gender": "Male",
-    "Locale": "sk-SK",
-    "LocaleName": "Slovak (Slovakia)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (sl-SI, PetraNeural)",
     "DisplayName": "Petra",
     "LocalName": "Petra",
@@ -5236,18 +4516,6 @@ var data = [
     "VoiceType": "Neural",
     "Status": "GA",
     "WordsPerMinute": "126"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (sl-SI, Lado)",
-    "DisplayName": "Lado",
-    "LocalName": "Lado",
-    "ShortName": "sl-SI-Lado",
-    "Gender": "Male",
-    "Locale": "sl-SI",
-    "LocaleName": "Slovenian (Slovenia)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (so-SO, MuuseNeural)",
@@ -5393,18 +4661,6 @@ var data = [
     "WordsPerMinute": "135"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (sv-SE, HedvigRUS)",
-    "DisplayName": "Hedvig",
-    "LocalName": "Hedvig",
-    "ShortName": "sv-SE-HedvigRUS",
-    "Gender": "Female",
-    "Locale": "sv-SE",
-    "LocaleName": "Swedish (Sweden)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (sw-KE, RafikiNeural)",
     "DisplayName": "Rafiki",
     "LocalName": "Rafiki",
@@ -5481,18 +4737,6 @@ var data = [
     "VoiceType": "Neural",
     "Status": "GA",
     "WordsPerMinute": "98"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (ta-IN, Valluvar)",
-    "DisplayName": "Valluvar",
-    "LocalName": "வள்ளுவர்",
-    "ShortName": "ta-IN-Valluvar",
-    "Gender": "Male",
-    "Locale": "ta-IN",
-    "LocaleName": "Tamil (India)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (ta-LK, KumarNeural)",
@@ -5599,18 +4843,6 @@ var data = [
     "WordsPerMinute": "79"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (te-IN, Chitra)",
-    "DisplayName": "Chitra",
-    "LocalName": "చిత్ర",
-    "ShortName": "te-IN-Chitra",
-    "Gender": "Female",
-    "Locale": "te-IN",
-    "LocaleName": "Telugu (India)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (th-TH, PremwadeeNeural)",
     "DisplayName": "Premwadee",
     "LocalName": "เปรมวดี",
@@ -5650,18 +4882,6 @@ var data = [
     "WordsPerMinute": "49"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (th-TH, Pattara)",
-    "DisplayName": "Pattara",
-    "LocalName": "ภัทรา",
-    "ShortName": "th-TH-Pattara",
-    "Gender": "Male",
-    "Locale": "th-TH",
-    "LocaleName": "Thai (Thailand)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (tr-TR, AhmetNeural)",
     "DisplayName": "Ahmet",
     "LocalName": "Ahmet",
@@ -5685,18 +4905,6 @@ var data = [
     "VoiceType": "Neural",
     "Status": "GA",
     "WordsPerMinute": "111"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (tr-TR, SedaRUS)",
-    "DisplayName": "Seda",
-    "LocalName": "Seda",
-    "ShortName": "tr-TR-SedaRUS",
-    "Gender": "Female",
-    "Locale": "tr-TR",
-    "LocaleName": "Turkish (Turkey)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (uk-UA, OstapNeural)",
@@ -5827,18 +5035,6 @@ var data = [
     "VoiceType": "Neural",
     "Status": "GA",
     "WordsPerMinute": "204"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (vi-VN, An)",
-    "DisplayName": "An",
-    "LocalName": "An",
-    "ShortName": "vi-VN-An",
-    "Gender": "Male",
-    "Locale": "vi-VN",
-    "LocaleName": "Vietnamese (Vietnam)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (zh-CN, XiaoxiaoNeural)",
@@ -6139,6 +5335,64 @@ var data = [
     "WordsPerMinute": "278"
   },
   {
+    "Name": "Microsoft Server Speech Text to Speech Voice (zh-CN, XiaomengNeural)",
+    "DisplayName": "Xiaomeng",
+    "LocalName": "晓梦",
+    "ShortName": "zh-CN-XiaomengNeural",
+    "Gender": "Female",
+    "Locale": "zh-CN",
+    "LocaleName": "Chinese (Mandarin, Simplified)",
+    "StyleList": [
+      "chat"
+    ],
+    "SampleRateHertz": "24000",
+    "VoiceType": "Neural",
+    "Status": "Preview"
+  },
+  {
+    "Name": "Microsoft Server Speech Text to Speech Voice (zh-CN, XiaoyiNeural)",
+    "DisplayName": "Xiaoyi",
+    "LocalName": "晓伊",
+    "ShortName": "zh-CN-XiaoyiNeural",
+    "Gender": "Female",
+    "Locale": "zh-CN",
+    "LocaleName": "Chinese (Mandarin, Simplified)",
+    "StyleList": [
+      "angry",
+      "disgruntled",
+      "affectionate",
+      "cheerful",
+      "fearful",
+      "sad",
+      "embarrassed",
+      "serious",
+      "gentle"
+    ],
+    "SampleRateHertz": "24000",
+    "VoiceType": "Neural",
+    "Status": "Preview"
+  },
+  {
+    "Name": "Microsoft Server Speech Text to Speech Voice (zh-CN, XiaozhenNeural)",
+    "DisplayName": "Xiaozhen",
+    "LocalName": "晓甄",
+    "ShortName": "zh-CN-XiaozhenNeural",
+    "Gender": "Female",
+    "Locale": "zh-CN",
+    "LocaleName": "Chinese (Mandarin, Simplified)",
+    "StyleList": [
+      "angry",
+      "disgruntled",
+      "cheerful",
+      "fearful",
+      "sad",
+      "serious"
+    ],
+    "SampleRateHertz": "24000",
+    "VoiceType": "Neural",
+    "Status": "Preview"
+  },
+  {
     "Name": "Microsoft Server Speech Text to Speech Voice (zh-CN, YunfengNeural)",
     "DisplayName": "Yunfeng",
     "LocalName": "云枫",
@@ -6168,7 +5422,7 @@ var data = [
     "Locale": "zh-CN",
     "LocaleName": "Chinese (Mandarin, Simplified)",
     "StyleList": [
-      "Advertisement_upbeat"
+      "advertisement_upbeat"
     ],
     "SampleRateHertz": "24000",
     "VoiceType": "Neural",
@@ -6200,12 +5454,11 @@ var data = [
     "Locale": "zh-CN",
     "LocaleName": "Chinese (Mandarin, Simplified)",
     "StyleList": [
-      "Narration-relaxed",
-      "Calm",
-      "Fearful",
-      "Cheerful",
-      "Angry",
-      "Sad"
+      "calm",
+      "fearful",
+      "cheerful",
+      "angry",
+      "sad"
     ],
     "SampleRateHertz": "24000",
     "VoiceType": "Neural",
@@ -6234,67 +5487,66 @@ var data = [
     "VoiceType": "Neural",
     "Status": "Preview",
     "RolePlayList": [
-      "Narrator",
       "OlderAdultMale",
       "SeniorMale"
     ]
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (zh-CN, HuihuiRUS)",
-    "DisplayName": "Huihui",
-    "LocalName": "慧慧",
-    "ShortName": "zh-CN-HuihuiRUS",
-    "Gender": "Female",
-    "Locale": "zh-CN",
-    "LocaleName": "Chinese (Mandarin, Simplified)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (zh-CN, Kangkang)",
-    "DisplayName": "Kangkang",
-    "LocalName": "康康",
-    "ShortName": "zh-CN-Kangkang",
+    "Name": "Microsoft Server Speech Text to Speech Voice (zh-CN-henan, YundengNeural)",
+    "DisplayName": "Yundeng",
+    "LocalName": "云登",
+    "ShortName": "zh-CN-henan-YundengNeural",
     "Gender": "Male",
-    "Locale": "zh-CN",
-    "LocaleName": "Chinese (Mandarin, Simplified)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (zh-CN, Yaoyao)",
-    "DisplayName": "Yaoyao",
-    "LocalName": "瑶瑶",
-    "ShortName": "zh-CN-Yaoyao",
-    "Gender": "Female",
-    "Locale": "zh-CN",
-    "LocaleName": "Chinese (Mandarin, Simplified)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
+    "Locale": "zh-CN-henan",
+    "LocaleName": "Chinese (Zhongyuan Mandarin Henan, Simplified)",
+    "SampleRateHertz": "24000",
+    "VoiceType": "Neural",
+    "Status": "Preview"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (zh-CN-liaoning, XiaobeiNeural)",
     "DisplayName": "Xiaobei",
-    "LocalName": "晓北辽宁",
+    "LocalName": "晓北",
     "ShortName": "zh-CN-liaoning-XiaobeiNeural",
     "Gender": "Female",
     "Locale": "zh-CN-liaoning",
-    "LocaleName": "Chinese (Mandarin, Simplified)",
+    "LocaleName": "Chinese (Northeastern Mandarin, Simplified)",
+    "SampleRateHertz": "24000",
+    "VoiceType": "Neural",
+    "Status": "Preview"
+  },
+  {
+    "Name": "Microsoft Server Speech Text to Speech Voice (zh-CN-shaanxi, XiaoniNeural)",
+    "DisplayName": "Xiaoni",
+    "LocalName": "晓妮",
+    "ShortName": "zh-CN-shaanxi-XiaoniNeural",
+    "Gender": "Female",
+    "Locale": "zh-CN-shaanxi",
+    "LocaleName": "Chinese (Zhongyuan Mandarin Shaanxi, Simplified)",
+    "SampleRateHertz": "24000",
+    "VoiceType": "Neural",
+    "Status": "Preview"
+  },
+  {
+    "Name": "Microsoft Server Speech Text to Speech Voice (zh-CN-shandong, YunxiangNeural)",
+    "DisplayName": "Yunxiang",
+    "LocalName": "云翔",
+    "ShortName": "zh-CN-shandong-YunxiangNeural",
+    "Gender": "Male",
+    "Locale": "zh-CN-shandong",
+    "LocaleName": "Chinese (Jilu Mandarin, Simplified)",
     "SampleRateHertz": "24000",
     "VoiceType": "Neural",
     "Status": "Preview"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (zh-CN-sichuan, YunxiNeural)",
-    "DisplayName": "YunxiSichuan",
-    "LocalName": "云希四川",
+    "DisplayName": "Yunxi",
+    "LocalName": "云希",
     "ShortName": "zh-CN-sichuan-YunxiNeural",
     "Gender": "Male",
     "Locale": "zh-CN-sichuan",
-    "LocaleName": "Chinese (Mandarin, Simplified)",
+    "LocaleName": "Chinese (Southwestern Mandarin, Simplified)",
     "SampleRateHertz": "24000",
     "VoiceType": "Neural",
     "Status": "Preview"
@@ -6339,30 +5591,6 @@ var data = [
     "WordsPerMinute": "259"
   },
   {
-    "Name": "Microsoft Server Speech Text to Speech Voice (zh-HK, Danny)",
-    "DisplayName": "Danny",
-    "LocalName": "Danny",
-    "ShortName": "zh-HK-Danny",
-    "Gender": "Male",
-    "Locale": "zh-HK",
-    "LocaleName": "Chinese (Cantonese, Traditional)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (zh-HK, TracyRUS)",
-    "DisplayName": "Tracy",
-    "LocalName": "Tracy",
-    "ShortName": "zh-HK-TracyRUS",
-    "Gender": "Female",
-    "Locale": "zh-HK",
-    "LocaleName": "Chinese (Cantonese, Traditional)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
     "Name": "Microsoft Server Speech Text to Speech Voice (zh-TW, HsiaoChenNeural)",
     "DisplayName": "HsiaoChen",
     "LocalName": "曉臻",
@@ -6400,42 +5628,6 @@ var data = [
     "VoiceType": "Neural",
     "Status": "GA",
     "WordsPerMinute": "285"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (zh-TW, HanHanRUS)",
-    "DisplayName": "HanHan",
-    "LocalName": "涵涵",
-    "ShortName": "zh-TW-HanHanRUS",
-    "Gender": "Female",
-    "Locale": "zh-TW",
-    "LocaleName": "Chinese (Taiwanese Mandarin)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (zh-TW, Yating)",
-    "DisplayName": "Yating",
-    "LocalName": "雅婷",
-    "ShortName": "zh-TW-Yating",
-    "Gender": "Female",
-    "Locale": "zh-TW",
-    "LocaleName": "Chinese (Taiwanese Mandarin)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
-  },
-  {
-    "Name": "Microsoft Server Speech Text to Speech Voice (zh-TW, Zhiwei)",
-    "DisplayName": "Zhiwei",
-    "LocalName": "志威",
-    "ShortName": "zh-TW-Zhiwei",
-    "Gender": "Male",
-    "Locale": "zh-TW",
-    "LocaleName": "Chinese (Taiwanese Mandarin)",
-    "SampleRateHertz": "16000",
-    "VoiceType": "Standard",
-    "Status": "Deprecated"
   },
   {
     "Name": "Microsoft Server Speech Text to Speech Voice (zu-ZA, ThandoNeural)",
