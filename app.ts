@@ -3,7 +3,7 @@ import * as bodyParser from 'body-parser'
 
 const app = express()
 
-const port = process.env.PORT ? parseInt(process.env.PORT) : 3000
+const port = process.env.PORT ? parseInt(process.env.PORT) : 3001
 
 app.use(bodyParser.text({ type: '*/*' }))
 app.use(express.static('public'))
