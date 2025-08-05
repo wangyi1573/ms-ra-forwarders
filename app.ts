@@ -12,6 +12,7 @@ app.get('/api/legado', require('./api/legado'))
 app.post('/api/ra', require('./api/ra'))
 app.get('/api/azure', require('./api/azure'))
 app.post('/api/azure', require('./api/azure'))
+app.get('/api/yx520', require('./api/yx520'))
 
 app.listen(port, () => {
   console.info(`TTS应用正在监听 ${port} 端口`)
